@@ -24,27 +24,7 @@ public class Solution_0512 {
     		} else {
     			pp = p;
     		}
-//        	int c = s.charAt(i) - 48;
-//        	if (c < 0 || c > 9){
-//        		return 0;
-//        	} else if (i == 0 && c == 0){
-//        		return 0;
-//        	}else if (c != 0){
-//        		//cnt ++;
-//        		if (i < s.length() - 1 && 10 * c + s.charAt(i + 1) - 48 < 27){
-//        			cnt += 1;
-//        		} else {
-//        			re *= cnt;
-//        			cnt = 1;
-//        		}
-//        			
-//        	} else {
-//        		if (s.charAt(i-1) - 48 < 1 || s.charAt(i - 1) - 48 > 2)
-//        			return 0;
-//        		cnt --;
-//        		re *= cnt;
-//        	}
-//        	
+
         }
         return p;
     }
